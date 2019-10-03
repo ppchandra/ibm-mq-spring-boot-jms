@@ -74,5 +74,4 @@ public void publishMessageToTopic() {
 	
 	topicTemplate.convertAndSend(topic, "hello world");
 }
-
  ```
